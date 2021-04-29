@@ -30,3 +30,8 @@ def pow(x,y):
 	if(x<1 and y>0 and y<1):
 		return 'ComplexError'
 	return x**y
+def add_digit(x):
+	s=0
+	for i in str(x):
+		s+=int(i)
+	return s
