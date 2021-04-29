@@ -14,7 +14,7 @@ def div(x, y):
 	else:
 		return 'Nan'
 def fact(x):
-	if(x==0):
+	if(x==0): //Base condition for recursion
 		return 1
 	else
 		return x * fact(x-1)
