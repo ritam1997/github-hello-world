@@ -21,4 +21,6 @@ def fact(x):
 def rev(x): #reverse method
 	return str(x)[::-1]
 def fact(x):
-	pass
+	if(x==0)
+		return 1
+	return x*fact(x-1)
