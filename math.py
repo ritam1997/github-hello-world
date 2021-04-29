@@ -25,4 +25,6 @@ def fact(x):
 		return 1
 	return x*fact(x-1)
 def pow(x,y):
+	if(x==0 and y==0):
+		return 'Nan'
 	return x**y
