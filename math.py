@@ -31,4 +31,4 @@ def pow(x,y):
 		return 'ComplexError'
 	return x**y
 def sum_digit(x):
-	pass
+	arr = list(str(x))
